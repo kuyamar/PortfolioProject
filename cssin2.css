@@ -42,11 +42,12 @@ body {
 	top:0;
 	width:100%;
 	z-index:1;
-	text-align: center;
+	text-align:left;
 }
 
 #nav_wrapper{
 	width: auto;
+
 }
 
 #nav ul{
@@ -176,13 +177,6 @@ body {
 	z-index:10;
 }
 
-.btn a{
-	display:block;
-}
-
-.btn a,hover{
-	text-decoration:none;
-}
 
 #mainpic{
 	margin:0px;
@@ -205,4 +199,5 @@ body {
 	max-width:100%;
 	text-align:center;
 	border-radius:10px;
+	box-shadow: 0px 5px 10px;
 }
