@@ -33,38 +33,47 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome.min.css">
 	<link rel="stylesheet" href="bootstrap.css">
-	<link rel="stylesheet" href="bootstrap.min.css"/>
 	<link rel="stylesheet" href="w3.css">
-	<meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script href="bootstrap.js"></script>
-	<script href="bootstrap.min.js"></script>
-	<script src="bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/0df168189a.js"></script>
     
 </head>
 <body>
-	<div id="nav" role="navigation">
-		<div id="nav_wrapper">
-			<ul>
-				<li style="font-family: 'Roboto Condensed', sans-serif;"><a href="#"><i class="fa fa-address-book-o" style="padding-right:5px; "aria-hidden="true"></i>Contact Me</a>
-					<ul><li style="font-family: 'Roboto Condensed', sans-serif;"><a href="https://www.facebook.com/Moreeeeeeeeee10"><i class="fa fa-facebook" style="padding-right:15px;"aria-hidden="true"></i>Facebook</a></li>
-					<li style="font-family: 'Roboto Condensed', sans-serif;"><a href="#"><i class="fa fa-google" style="padding-right:15px;"aria-hidden="true"></i>Gmail:cabardomararvel@gmail.com</a></li>
-					<li style="font-family: 'Roboto Condensed', sans-serif;"><a href="#"><i class="fa fa-phone" style="padding-right:15px"aria-hidden="true"></i>Call Me:09950813089 Or 09998947527</a></li>
+    <div>
+	<nav class="navbar navbar-inverse navbar-fixed-top" style="margin-bottom:0px; box-shadow: 0px 5px 5px #000;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">MyPortfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li id="home" style="font-family: 'Roboto Condensed', sans-serif;"><a href="#home"><i class="fa fa-home" aria-hidden="true" style="padding-right:5px;"></i>Home</a></li>
+        <li style="color:black; font-family: 'Roboto Condensed', sans-serif;"><a href="#quote"><i class="fa fa-user-circle" style="padding-right:5px;"aria-hidden="true"></i>About Me</a></li>
+           <li class="active dropdown" style="font-family: 'Roboto Condensed', sans-serif;"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-address-book-o" style="padding-right:5px; "aria-hidden="true"></i>Contact Me<b class="caret"></b></a>
+               <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                    <li style="font-family: 'Roboto Condensed', sans-serif;" role="presentation"><a href="https://www.facebook.com/Moreeeeeeeeee10" role="menuitem" tabindex="-1"><i class="fa fa-facebook" style="padding-right:15px;"aria-hidden="true"></i>Facebook</a></li>
+					<li style="font-family: 'Roboto Condensed', sans-serif;" role="presentation"><a href="#"><i class="fa fa-google" style="padding-right:15px;"aria-hidden="true" role="menuitem" tabindex="-1"></i>Gmail:cabardomararvel@gmail.com</a></li>
+					<li style="font-family: 'Roboto Condensed', sans-serif;" role="presentation"><a href="#" role="menuitem" tabindex="-1"><i class="fa fa-phone" style="padding-right:15px"aria-hidden="true"></i>Call Me:09950813089 Or 09998947527</a></li>
 					</ul>
-					</li>
-					<li id="#toggleThis" style="color:black; font-family: 'Roboto Condensed', sans-serif;"><a href="#resumeinfo"><i class="fa fa-user-secret" style="padding-right:5px;"aria-hidden="true" onlick="on()"></i>My Resume</a></li>
-					<li style="color:black; font-family: 'Roboto Condensed', sans-serif;"><a href="#quote"><i class="fa fa-user-circle" style="padding-right:5px;"aria-hidden="true"></i>About Me</a></li>
-			</ul>
-		</div>
-	</div>
-
-<div id="hero-image" class="w3-center">
-			<div id="hero-text">
-				<img class="w3-center" id="mainpic" src="imgs/MA4.png">
-                <h1 class="w3-center" style="font-family: 'Arvo', serif;
+					</li> 
+        <li  id="#toggleThis" style="color:black; font-family: 'Roboto Condensed', sans-serif;"><a href="#resumeinfo"><i class="fa fa-user-secret" style="padding-right:5px;"aria-hidden="true" onlick="on()"></i>My Resume</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+    </div>
+<div id="hero-image" class="center">
+			<div class="col-md-12 col-xs-12 col-xs-12 col-lg-12" id="hero-text">
+				<img class="img-responsive center" id="mainpic" src="imgs/marogo.png">
+                <h1 class="center" style="font-family: 'Arvo', serif;
 "><b>" IM MAR ARVEL E. CABARDO<b/></h1>
                     <h1 class="w3-center" style="font-family: 'Arvo', serif;
 "><b>4TH YEAR BS I.T STUDENT.</b></h1>
@@ -87,25 +96,25 @@
 	<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:120px">
 
   <div class="w3-row-padding w3-padding-30 w3-center">
-    <div class="w3-quarter">
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 				<img id="here" src="imgs/music2.jpg" style="width:100%; box-shadow: 0px 0px 14px;">
 				<h4 style="font-family: 'Roboto Condensed', sans-serif; color:white; text-shadow: 1px 1px 1px #000;">Likes to listen to Music</h4>
 				<p style="font-family: 'Roboto Condensed', sans-serif; color:white; text-shadow: 1px 1px 1px #000; margin-bottom:70px;">I like to listen to music because it helps me relax/calm my mind.</p>
     </div>
 	
-    <div class="w3-quarter">
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 				<img src="imgs/cooking.jpg" style="width:100%; box-shadow: 0px 5px 10px;">
 				<h4 style="font-family: 'Roboto Condensed', sans-serif; color:white; text-shadow: 1px 1px 1px #000;">Loves to cook.</h4>
 				<p style="font-family: 'Roboto Condensed', sans-serif; color:white; text-shadow: 1px 1px 1px #000; margin-bottom:70px;">because i love to eat that's why.</p>
     </div>
 	
-    <div class="w3-quarter">
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 				<img src="imgs/programming.jpg" style="width:100%; box-shadow: 0px 5px 10px;">
 				<h3 style="font-family: 'Roboto Condensed', sans-serif; color:white; text-shadow: 1px 1px 1px #000;">Has Basic knowledge in</h3>
 				<p style="font-family: 'Roboto Condensed', sans-serif; color:white; text-shadow: 1px 1px 1px #000; margin-bottom:70px;">Java,Web Designing,HTML,CSS,Macromedia Flash. I had also done some system as a project for school.</p>
     </div>
 	
-    <div class="w3-quarter">
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 				<img src="imgs/gamer.jpg" style="width:100%; box-shadow: 0px 5px 10px;">
 				<h4 style="font-family: 'Roboto Condensed', sans-serif; color:white; text-shadow: 1px 1px 1px #000;">Gamer</h4>
 				<p style="font-family: 'Roboto Condensed', sans-serif; color:white; text-shadow: 1px 1px 1px #000; margin-bottom:70px;">By playing games i forget my problems,the stress even for just a short period of time.</p>
@@ -114,13 +123,13 @@
   </div>
   
   <div class="w3-row-padding w3-padding-16 w3-center">
-		<div class="w3-quarter">
+		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 				<img src="imgs/choy.jpg" style="width:100%; box-shadow: 0px 5px 10px;">
 				<h4 style="font-family: 'Roboto Condensed', sans-serif; color:white; text-shadow: 1px 1px 1px #000;">My Dog is so awesome.</h4>
 				<p style="font-family: 'Roboto Condensed', sans-serif; color:white; text-shadow: 1px 1px 1px #000; margin-bottom:70px;"></p>
     </div>
 	
-			<div class="w3-quarter">
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 					<img src="imgs/student.jpg" style="width:100%; box-shadow: 0px 5px 10px;">
 					<h4 style="font-family: 'Roboto Condensed', sans-serif; color:white; text-shadow: 1px 1px 1px #000;">I'm a 4TH Year BS IT Student in Colegio De San Gabriel Arcangel.</h4>
 					<p style="font-family: 'Roboto Condensed', sans-serif; color:white; text-shadow: 1px 1px 1px #000; margin-bottom:70px;"></p>
@@ -129,7 +138,7 @@
 	</div>
         
         
-        <div id="#content"class="w3-container w3-center" style="margin-top:140px; margin-bottom:100px;">
+        <div id="#content"class="container-fluid" style="margin-top:140px; margin-bottom:100px;">
 			<div id="sysinfo" class="jumbotron" style="margin-bottom:125px;">
 					<h1 style="font-family: 'Satisfy', cursive; font-size:70px;"><b>Some of my work .</b></h1>
 			</div>
@@ -167,10 +176,10 @@
         
         
 	<div id="#content"class="w3-container w3-center" style="margin-top:140px; margin-bottom:100px;">
-			<div id="resumeinfo" class="jumbotron" style="margin-bottom:65px;">
+			<div id="resumeinfo" class="jumbotron col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-bottom:65px;">
 					<h1 style="font-family: 'Satisfy', cursive; font-size:70px;"><b>My Resume</b></h1>
 			</div>
-				<img id="resume2"src="imgs/resh.jpg">	
+				<img id="resume2" src="imgs/resh.jpg">	
 	<div>
 
      
